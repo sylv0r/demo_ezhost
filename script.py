@@ -2,9 +2,11 @@ import time
 import sys
 
 def main():
+    i = 0
     while True:
-        print("test")
-        sys.stdout.flush()  # Flush stdout to ensure immediate output
+        i = i + 1
+        print("test 2" + str(i))
+        sys.stdout.flush()
         time.sleep(5)
 
 if __name__ == "__main__":
