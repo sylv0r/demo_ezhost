@@ -5,7 +5,7 @@ def main():
     i = 0
     while True:
         i = i + 1
-        print("test 2" + str(i))
+        print("HELLO EZHOST " + str(i))
         sys.stdout.flush()
         time.sleep(5)
 
